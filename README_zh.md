@@ -140,6 +140,8 @@ public CompletableFuture<ApiResponse> callExternalApi(String requestId, ApiReque
 
 ## 许可证
 
+[Apache 2.0 License](LICENSE)
+
 ## 贡献
 
 [贡献指南](./CONTRIBUTING_zh.md)

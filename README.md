@@ -1,5 +1,6 @@
 # SingleFlight
 
+
 English | [Chinese](./README_zh.md)
 
 A Java utility class for suppressing duplicate requests, inspired by Go's [singleflight](https://golang.org/x/sync/singleflight) package.
@@ -139,6 +140,8 @@ public CompletableFuture<ApiResponse> callExternalApi(String requestId, ApiReque
 - When using the `forget` method to cancel an operation, all callers waiting for that operation will receive an exception
 
 ## License
+
+[Apache 2.0 License](LICENSE)
 
 ## Contributing
 
