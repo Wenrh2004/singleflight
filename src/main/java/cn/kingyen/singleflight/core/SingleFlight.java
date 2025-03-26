@@ -1,4 +1,4 @@
-package com.qit.softwarestudio.singleflight.core;
+package cn.kingyen.softwarestudio.singleflight.core;
 
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
