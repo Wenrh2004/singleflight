@@ -24,7 +24,7 @@ SingleFlight是一个轻量级的并发工具，用于防止多个线程针对�
 <dependency>
     <groupId>com.qit.softwarestudio</groupId>
     <artifactId>singleflight</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
