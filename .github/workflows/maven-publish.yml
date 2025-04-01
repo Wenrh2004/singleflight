@@ -1,13 +1,17 @@
 name: Publish Maven Central
 
 on:
-  release:
-    types: [ published ]
+  push:
+    branches: [ Wenrh2004-patch-1 ]
 
 jobs:
   publish-maven-central:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug GPG Key
+        run: |
+          echo "${{ secrets.GPG_SECRET }}" | base64 --decode | gpg --import --batch
+
       - name: Check out Git repository
         uses: actions/checkout@v4
 
