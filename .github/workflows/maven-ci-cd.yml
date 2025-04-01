@@ -25,7 +25,7 @@ jobs:
 
       - name: Upload Test Report
         if: always()  # 即使测试失败也上传
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-results
           path: target/surefire-reports/
