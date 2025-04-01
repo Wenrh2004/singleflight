@@ -25,7 +25,7 @@ SingleFlight is a lightweight concurrency tool designed to prevent multiple thre
 <dependency>
     <groupId>com.qit.softwarestudio</groupId>
     <artifactId>singleflight</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
