@@ -1,4 +1,4 @@
-package cn.kingyen.softwarestudio.singleflight.core;
+package cn.kingyen.singleflight.core;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
