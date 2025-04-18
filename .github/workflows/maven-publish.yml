@@ -1,8 +1,6 @@
 name: Publish Maven Central
 
 on:
-  push:
-    branches: [ fix ]
   release:
     types: [ published ]
 
